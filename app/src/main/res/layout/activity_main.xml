@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:id="@+id/bannerAds1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/siren_logo"
+        android:padding="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ring One"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="50dp"
+        android:layout_above="@+id/btnOff1"/>
+
+
+    <ImageView
+        android:id="@+id/btnOn1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/power_on"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="20dp"/>
+    <ImageView
+        android:id="@+id/btnOff1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/power_off"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="20dp"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ring Two"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginRight="50dp"
+        android:layout_above="@+id/btnOn2"
+        android:layout_alignParentRight="true"/>
+
+
+
+    <ImageView
+        android:id="@+id/btnOn2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/power_on"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="20dp"/>
+    <ImageView
+        android:id="@+id/btnOff2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/power_off"
+        android:visibility="invisible"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="20dp"/>
+
+
+
+</RelativeLayout>
